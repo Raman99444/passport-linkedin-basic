@@ -1,0 +1,43 @@
+{
+  "name": "passport-linkedin-basic",
+  "version": "1.0.0",
+  "description": "Authenticate using userEmail and password for Passport.",
+  "keywords": [
+    "passport",
+    "local",
+    "auth",
+    "authn",
+    "authentication",
+    "userEmail",
+    "password"
+  ],
+  "author": {
+    "name": "Ramachandran Perumal",
+    "email": "pramachandran.mca@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Raman99444/passport-linkedin-basic.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
