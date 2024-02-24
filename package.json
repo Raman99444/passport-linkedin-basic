@@ -1,6 +1,6 @@
 {
   "name": "passport-linkedin-basic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Authenticate using userEmail and password for Passport.",
   "keywords": [
     "passport",
